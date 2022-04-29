@@ -1,0 +1,10 @@
+.emptyIcon {
+  font-size: 240px;
+  color: rgb(163, 160, 160);
+}
+.divEmpty {
+  padding: 3rem;
+}
+.divEmpty > p {
+  opacity: 0.6;
+}

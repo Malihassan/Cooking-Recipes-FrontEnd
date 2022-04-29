@@ -1,0 +1,50 @@
+.card-container {
+  /* width: 20rem; */
+  cursor: pointer;
+}
+.card-container>img{
+    height: 300px;
+}
+.title {
+  font-size: 1.5rem;
+  font-family: "Orelega One", cursive;
+}
+.time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  padding-top: 1.5rem;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.time > label:first-child {
+  border-right: 1px solid gray;
+}
+.card-container:hover .viewbutton {
+    transform: translateY(0%);
+    transition: all 0.3s ease-in-out;
+    background: white;
+    color: black;
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+.viewbutton {
+    color: inherit;
+    text-decoration:inherit;
+    background: rgba(darken(#F2DAD7, 10%), .9);
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-25%,-25%);
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.4);
+    outline: none;
+    letter-spacing: 2px;
+    border: 2px solid white;
+    z-index:1;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    opacity: 0;
+}

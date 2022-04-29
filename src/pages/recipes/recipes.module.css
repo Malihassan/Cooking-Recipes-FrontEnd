@@ -1,0 +1,16 @@
+.img{
+    height: 450px;
+}
+.btn{
+    width: 150px;
+    background-color: rgba(0, 0, 102, 0.708);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    float: right;
+    margin-right: 5rem;
+    text-align: center;
+    border-radius: 5px;
+}

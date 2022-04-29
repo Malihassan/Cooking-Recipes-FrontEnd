@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
+.navbar {
+  background-color: rgba(0, 0, 63, 0.543);
+  position: absolute;
+  top: 0%;
+  color: white !important;
+}
+.logo {
+  font-family: "Monoton", cursive;
+}
+.navbar-nav {
+  font-family: "Orelega One", cursive;
+  display: flex;
+  justify-content: space-around;
+}

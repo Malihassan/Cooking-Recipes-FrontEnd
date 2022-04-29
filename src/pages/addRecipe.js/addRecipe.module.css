@@ -1,0 +1,37 @@
+.container-form {
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+}
+.form {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.form > h1 {
+  margin-top: 0.25rem;
+  font-family: "Orelega One", cursive;
+}
+.input {
+  border: none;
+  border: 1px solid #cdcdcd;
+}
+.textarea {
+  border: none;
+  border: 1px solid #cdcdcd;
+  height: 100px;
+}
+.dropzone {
+  border: 2px dashed #cdcdcd;
+}
+.icon {
+  color: #797979;
+  font-size: 4rem;
+}
+.btn {
+  background-color: rgba(0, 0, 102, 0.708);
+  color: white;
+  font-weight: bolder;
+}
