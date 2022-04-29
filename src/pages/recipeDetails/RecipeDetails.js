@@ -75,7 +75,7 @@ function RecipeDetails() {
                 </tr>
               </thead>
               <tbody>
-                <tr className={` border-1 ${classes.tr}`}>
+                <tr className={`${classes.tr}`}>
                   <td className="px-3">
                     <label className={`${classes.label}`}>
                       {recipe?.ingredients}
