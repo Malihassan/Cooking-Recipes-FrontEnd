@@ -70,19 +70,19 @@ function RecipeDetails() {
             <table className={`table my-4 ${classes.table}`}>
               <thead>
                 <tr>
-                  <th className={`col-4 ${classes.th}`}>Ingredients</th>
-                  <th className={`col-8 text-center ${classes.th}`}>Recipe</th>
+                  <th scope="row" className={`th-lg ${classes.th}`}>Ingredients</th>
+                  <th scope="row" className={` text-center ${classes.th}`}>Recipe</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className={classes.tr}>
+                <tr className={` border-1 ${classes.tr}`}>
                   <td className="px-3">
-                    <pre className={classes.textarea}>
+                    <label className={`${classes.label}`}>
                       {recipe?.ingredients}
-                    </pre>
+                    </label>
                   </td>
                   <td className="px-5">
-                    <pre className={classes.textarea}>{recipe?.recipe}</pre>
+                    <label className={`${classes.label}`}>{recipe?.recipe}</label>
                   </td>
                 </tr>
               </tbody>
