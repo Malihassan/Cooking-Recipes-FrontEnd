@@ -39,7 +39,7 @@ function RecipeDetails() {
         </div>
       ) : (
         <section
-          className={`container shadow-lg mb-5 ${classes["container-details"]}`}
+          className={`container col-lg-7 col-sm-10 shadow-lg mb-5 ${classes["container-details"]}`}
         >
           <img src={recipe?.image?.url} className={classes.img} alt="img" />
           <label className={`fs-1 ${classes.title}`}>{recipe?.title}</label>
