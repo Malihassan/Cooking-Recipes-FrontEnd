@@ -70,7 +70,7 @@ function RecipeDetails() {
             <table className={`table my-4 ${classes.table}`}>
               <thead>
                 <tr>
-                  <th scope="row" className={`th-lg ${classes.th}`}>Ingredients</th>
+                  <th scope="row" className={`th-lg col-3 ${classes.th}`}>Ingredients</th>
                   <th scope="row" className={` text-center ${classes.th}`}>Recipe</th>
                 </tr>
               </thead>
