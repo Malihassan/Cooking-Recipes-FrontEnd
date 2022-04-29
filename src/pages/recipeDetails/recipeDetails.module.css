@@ -1,10 +1,5 @@
-.container-details {
+.container-wrraper {
   padding-top: 10rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
 }
 .img {
   width: 100%;
@@ -18,7 +13,7 @@
   font-family: "Yanone Kaffeesatz", sans-serif;
   letter-spacing: 5px;
 }
-.container-details > div > h6 > span {
+.time > span {
   color: rgb(157, 157, 216);
 }
 .icon {
@@ -43,8 +38,8 @@
   color: rgb(157, 157, 216);
   font-size: 1.5rem;
 }
-.textarea{
-    width: 100%;
-    border: none;
-    background-color: #f8f8f7;
+.textarea {
+  width: 100%;
+  border: none;
+  background-color: #f8f8f7;
 }
